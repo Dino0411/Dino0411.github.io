@@ -1,0 +1,72 @@
+/* ! reser css 
+    ! Emmet(p0;m0) 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: cursive;
+}
+/* TODO:start 
+TODO: từ ngoài vào trong
+TODO: từ trên xuống dưới
+TODO:tổng quan đến chi tiết
+*/
+
+/* 
+? vị trí
+? kích thước(width,height)
+? màu sắc
+? kiểu dáng(kiểu chữ,...)
+*/
+#main {
+}
+#header {
+  height: 47px;
+  background-color: #000;
+}
+#nav,
+.subnav {
+  list-style: none;
+}
+#nav > li {
+  display: inline-block;
+  position: relative;
+}
+#nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+#nav li a {
+  text-decoration: none;
+  padding: 0px 20px;
+  line-height: 47px;
+}
+#nav > li:hover > a,
+#nav .subnav a:hover {
+  color: #000;
+  background-color: #ccc;
+  display: block;
+}
+#nav .subnav {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+#nav .subnav a {
+  color: #000;
+  padding: 0 12px;
+  line-height: 40px;
+}
+#slider {
+  min-height: 500px;
+  background-color: #333;
+}
+#content {
+}
+#footer {
+}
